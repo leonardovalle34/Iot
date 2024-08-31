@@ -20,7 +20,7 @@ Exemplo Prático com Python:
 
 Demonstração de upload de arquivos para AWS S3 usando Boto3.
 python
-Copiar código
+
 import boto3
 s3 = boto3.client('s3')
 s3.upload_file('local_file.txt', 'bucket_name', 's3_file.txt')
@@ -45,7 +45,7 @@ Exemplo Prático com Python:
 
 Leitura de dados de um sensor de temperatura e publicação via MQTT.
 python
-Copiar código
+
 import paho.mqtt.client as mqtt
 import Adafruit_DHT
 
@@ -77,7 +77,7 @@ Exemplo Prático com Python:
 
 Análise de dados de produção para prever falhas em máquinas.
 python
-Copiar código
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
